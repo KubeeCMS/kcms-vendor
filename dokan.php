@@ -1,20 +1,20 @@
 <?php
 /**
- * Plugin Name: KCMS Vendor
- * Plugin URI: https://github.com/KubeeCMS/kcms-vendor/
- * Description: E-commerce marketplace.
+ * Plugin Name: Dokan
+ * Plugin URI: https://wordpress.org/plugins/dokan-lite/
+ * Description: An e-commerce marketplace plugin for WordPress. Powered by WooCommerce and weDevs.
  * Version: 3.3.1
- * Author: Kubee
- * Author URI: https://github.com/KubeeCMS/
+ * Author: weDevs
+ * Author URI: https://wedevs.com/
  * Text Domain: dokan-lite
- * WC requires at least: 5.0
- * WC tested up to: 5.9
+ * WC requires at least: 3.0
+ * WC tested up to: 5.9.0
  * Domain Path: /languages/
  * License: GPL2
  */
 
 /*
- * Copyright (c) 2022 KubeeCMS (email: info@kubee.com). All rights reserved.
+ * Copyright (c) 2019 weDevs (email: info@wedevs.com). All rights reserved.
  *
  * Released under the GPL license
  * http://www.opensource.org/licenses/gpl-license.php

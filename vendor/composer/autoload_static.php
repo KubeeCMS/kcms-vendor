@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit11011a74fd6e9438d7fd882addcf9aad
+class ComposerStaticInitbfaa04e090c3736f9f7503ea4d6fa6b5
 {
     public static $files = array (
         'b45b351e6b6f7487d819961fef2fda77' => __DIR__ . '/..' . '/jakeasmith/http_build_url/src/http_build_url.php',
@@ -51,6 +51,7 @@ class ComposerStaticInit11011a74fd6e9438d7fd882addcf9aad
         'WeDevs\\Dokan\\Admin\\Menu' => __DIR__ . '/../..' . '/includes/Admin/Menu.php',
         'WeDevs\\Dokan\\Admin\\Pointers' => __DIR__ . '/../..' . '/includes/Admin/Pointers.php',
         'WeDevs\\Dokan\\Admin\\Promotion' => __DIR__ . '/../..' . '/includes/Admin/Promotion.php',
+        'WeDevs\\Dokan\\Admin\\ReviewNotice' => __DIR__ . '/../..' . '/includes/Admin/ReviewNotice.php',
         'WeDevs\\Dokan\\Admin\\Settings' => __DIR__ . '/../..' . '/includes/Admin/Settings.php',
         'WeDevs\\Dokan\\Admin\\SetupWizard' => __DIR__ . '/../..' . '/includes/Admin/SetupWizard.php',
         'WeDevs\\Dokan\\Admin\\SetupWizardNoWC' => __DIR__ . '/../..' . '/includes/Admin/SetupWizardNoWC.php',
@@ -156,6 +157,7 @@ class ComposerStaticInit11011a74fd6e9438d7fd882addcf9aad
         'WeDevs\\Dokan\\Upgrade\\Upgrades\\V_3_1_0' => __DIR__ . '/../..' . '/includes/Upgrade/Upgrades/V_3_1_0.php',
         'WeDevs\\Dokan\\Upgrade\\Upgrades\\V_3_1_1' => __DIR__ . '/../..' . '/includes/Upgrade/Upgrades/V_3_1_1.php',
         'WeDevs\\Dokan\\Upgrade\\Upgrades\\V_3_2_12' => __DIR__ . '/../..' . '/includes/Upgrade/Upgrades/V_3_2_12.php',
+        'WeDevs\\Dokan\\Upgrade\\Upgrades\\V_3_3_1' => __DIR__ . '/../..' . '/includes/Upgrade/Upgrades/V_3_3_1.php',
         'WeDevs\\Dokan\\Vendor\\Manager' => __DIR__ . '/../..' . '/includes/Vendor/Manager.php',
         'WeDevs\\Dokan\\Vendor\\SetupWizard' => __DIR__ . '/../..' . '/includes/Vendor/SetupWizard.php',
         'WeDevs\\Dokan\\Vendor\\StoreListsFilter' => __DIR__ . '/../..' . '/includes/Vendor/StoreListsFilter.php',
@@ -184,9 +186,9 @@ class ComposerStaticInit11011a74fd6e9438d7fd882addcf9aad
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit11011a74fd6e9438d7fd882addcf9aad::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit11011a74fd6e9438d7fd882addcf9aad::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit11011a74fd6e9438d7fd882addcf9aad::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitbfaa04e090c3736f9f7503ea4d6fa6b5::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitbfaa04e090c3736f9f7503ea4d6fa6b5::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitbfaa04e090c3736f9f7503ea4d6fa6b5::$classMap;
 
         }, null, ClassLoader::class);
     }
