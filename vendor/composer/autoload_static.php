@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3cbc02ce2e9baa6c4b8fbdf55b4f58f5
+class ComposerStaticInit66f0ab9749861743be81cedb1e4e7437
 {
     public static $files = array (
         'b45b351e6b6f7487d819961fef2fda77' => __DIR__ . '/..' . '/jakeasmith/http_build_url/src/http_build_url.php',
@@ -48,11 +48,15 @@ class ComposerStaticInit3cbc02ce2e9baa6c4b8fbdf55b4f58f5
         'WeDevs\\Dokan\\Abstracts\\DokanUpgrader' => __DIR__ . '/../..' . '/includes/Abstracts/DokanUpgrader.php',
         'WeDevs\\Dokan\\Admin\\AdminBar' => __DIR__ . '/../..' . '/includes/Admin/AdminBar.php',
         'WeDevs\\Dokan\\Admin\\Hooks' => __DIR__ . '/../..' . '/includes/Admin/Hooks.php',
-        'WeDevs\\Dokan\\Admin\\LimitedTimePromotion' => __DIR__ . '/../..' . '/includes/Admin/LimitedTimePromotion.php',
         'WeDevs\\Dokan\\Admin\\Menu' => __DIR__ . '/../..' . '/includes/Admin/Menu.php',
+        'WeDevs\\Dokan\\Admin\\Notices\\Helper' => __DIR__ . '/../..' . '/includes/Admin/Notices/Helper.php',
+        'WeDevs\\Dokan\\Admin\\Notices\\LimitedTimePromotion' => __DIR__ . '/../..' . '/includes/Admin/Notices/LimitedTimePromotion.php',
+        'WeDevs\\Dokan\\Admin\\Notices\\Manager' => __DIR__ . '/../..' . '/includes/Admin/Notices/Manager.php',
+        'WeDevs\\Dokan\\Admin\\Notices\\PluginReview' => __DIR__ . '/../..' . '/includes/Admin/Notices/PluginReview.php',
+        'WeDevs\\Dokan\\Admin\\Notices\\SetupWizard' => __DIR__ . '/../..' . '/includes/Admin/Notices/SetupWizard.php',
+        'WeDevs\\Dokan\\Admin\\Notices\\WhatsNew' => __DIR__ . '/../..' . '/includes/Admin/Notices/WhatsNew.php',
         'WeDevs\\Dokan\\Admin\\Pointers' => __DIR__ . '/../..' . '/includes/Admin/Pointers.php',
         'WeDevs\\Dokan\\Admin\\Promotion' => __DIR__ . '/../..' . '/includes/Admin/Promotion.php',
-        'WeDevs\\Dokan\\Admin\\ReviewNotice' => __DIR__ . '/../..' . '/includes/Admin/ReviewNotice.php',
         'WeDevs\\Dokan\\Admin\\Settings' => __DIR__ . '/../..' . '/includes/Admin/Settings.php',
         'WeDevs\\Dokan\\Admin\\SetupWizard' => __DIR__ . '/../..' . '/includes/Admin/SetupWizard.php',
         'WeDevs\\Dokan\\Admin\\SetupWizardNoWC' => __DIR__ . '/../..' . '/includes/Admin/SetupWizardNoWC.php',
@@ -98,7 +102,9 @@ class ComposerStaticInit3cbc02ce2e9baa6c4b8fbdf55b4f58f5
         'WeDevs\\Dokan\\Product\\ProductCache' => __DIR__ . '/../..' . '/includes/Product/ProductCache.php',
         'WeDevs\\Dokan\\REST\\AdminDashboardController' => __DIR__ . '/../..' . '/includes/REST/AdminDashboardController.php',
         'WeDevs\\Dokan\\REST\\AdminMiscController' => __DIR__ . '/../..' . '/includes/REST/AdminMiscController.php',
+        'WeDevs\\Dokan\\REST\\AdminNoticeController' => __DIR__ . '/../..' . '/includes/REST/AdminNoticeController.php',
         'WeDevs\\Dokan\\REST\\AdminReportController' => __DIR__ . '/../..' . '/includes/REST/AdminReportController.php',
+        'WeDevs\\Dokan\\REST\\ChangeLogController' => __DIR__ . '/../..' . '/includes/REST/ChangeLogController.php',
         'WeDevs\\Dokan\\REST\\Manager' => __DIR__ . '/../..' . '/includes/REST/Manager.php',
         'WeDevs\\Dokan\\REST\\OrderController' => __DIR__ . '/../..' . '/includes/REST/OrderController.php',
         'WeDevs\\Dokan\\REST\\ProductAttributeController' => __DIR__ . '/../..' . '/includes/REST/ProductAttributeController.php',
@@ -196,9 +202,9 @@ class ComposerStaticInit3cbc02ce2e9baa6c4b8fbdf55b4f58f5
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3cbc02ce2e9baa6c4b8fbdf55b4f58f5::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3cbc02ce2e9baa6c4b8fbdf55b4f58f5::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit3cbc02ce2e9baa6c4b8fbdf55b4f58f5::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit66f0ab9749861743be81cedb1e4e7437::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit66f0ab9749861743be81cedb1e4e7437::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit66f0ab9749861743be81cedb1e4e7437::$classMap;
 
         }, null, ClassLoader::class);
     }
