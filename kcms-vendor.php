@@ -3,7 +3,7 @@
  * Plugin Name: KCMS Vendor
  * Plugin URI: https://github.com/KubeeCMS/kcms-vendor/
  * Description: E-commerce marketplace.
- * Version: 3.3.4
+ * Version: 3.3.5
  * Author: Kubee
  * Author URI: https://github.com/KubeeCMS/
  * Text Domain: dokan-lite
@@ -56,7 +56,7 @@ final class WeDevs_Dokan {
      *
      * @var string
      */
-    public $version = '3.3.4';
+    public $version = '3.3.5';
 
     /**
      * Instance of self
