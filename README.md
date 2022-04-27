@@ -1,2 +1,2 @@
 # kcms-vendor
-kcms-vendor
+kcms-vendor extension
